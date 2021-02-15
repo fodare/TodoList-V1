@@ -12,7 +12,7 @@ app.use(express.static("public"));
 // let items = ["Buy Food", "Cook Food", "Eat Food"];
 // let workItems = [];
 // Connection to the Mongodb server
-mongoose.connect("mongodb://localhost:27017/todolistDB", {useNewUrlParser:true}); 
+mongoose.connect("mongodb+srv://admin-damilare:Worldwar321@cluster0.hh4l8.mongodb.net/todolistDB", {useNewUrlParser:true}); 
 
 //Create todolist DB Schema
 const itemsSchema = new mongoose.Schema({
